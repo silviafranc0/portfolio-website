@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--LANDING PAGE-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvia Franco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!--Branding, logo, Hero Section-->
+    <header>
+        <!--links to landing page and project page-->
+        <img src="images/myLogo.png" alt="logo" class="logo" width="100" height="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/avatar.png" alt="avatar" class="avatar">
+            <div class="hero-content">
+                <h1>Hi, I'm Silvia Franco</h1>
+                <h2>Aspiring Blue Team Analyst | Computer Science Student</h2>
+
+                <div class="hero-btns">
+                    <a href="projects.html" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a Computer Science student focused on building a career in cybersecurity,
+                with a growing interest in blue team defense and system protection. I'm
+                developing a strong technical foundation through coursework and hands-on
+                practice.
+            </p> 
+            <p>
+                I've built core programming skills in Java and am currently expanding my
+                knowledge in C++, SQL, and web technologies. My experience with Wireshark,
+                Packet Tracer, Linux, and Git sparked my interest in network analysis,
+                system hardening, and understanding how systems communicate and fail.
+            </p>
+            <p>
+                I'm currently studying for the CompTIA Security+ certification to deepen
+                my understanding of threat detection, risk management, and security principles.
+                My goal is to grow into a cybersecurity analyst role where I can help defend
+                and strengthen organizational infrastructure.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:sfranc5@charlotte.edu" method="post" enctype="text/plain">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="8" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <!--Copyright info, social media icons, etc.-->
+    <footer>
+        <p>&copy; 2026 Silvia Franco. All rights reserved.</p>
+        <div class="socials">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/silviafranc0" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="https://github.com/silviafranc0" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
